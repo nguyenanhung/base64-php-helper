@@ -31,7 +31,7 @@ class Base64
      * @copyright: 713uk13m <dev@nguyenanhung.com>
      * @time     : 10/18/2021 33:04
      */
-    public static function superBase64Encode($input)
+    public static function superBase64Encode($input): string
     {
         $output = $input;
         $output = base64_encode($output);
@@ -74,7 +74,7 @@ class Base64
      * @copyright: 713uk13m <dev@nguyenanhung.com>
      * @time     : 10/18/2021 32:52
      */
-    public static function base64UrlEncode($data, $usePadding = false)
+    public static function base64UrlEncode($data, bool $usePadding = false): string
     {
         $encoded = strtr(base64_encode($data), '+/', '-_');
 
@@ -91,7 +91,7 @@ class Base64
      * @copyright: 713uk13m <dev@nguyenanhung.com>
      * @time     : 10/18/2021 32:49
      */
-    public static function base64UrlDecode($data)
+    public static function base64UrlDecode($data): string
     {
         $decoded = base64_decode(strtr($data, '-_', '+/'), true);
         if (false === $decoded) {
