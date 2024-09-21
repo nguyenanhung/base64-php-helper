@@ -1,4 +1,7 @@
-[![Latest Stable Version](http://poser.pugx.org/nguyenanhung/base64-php-helper/v)](https://packagist.org/packages/nguyenanhung/base64-php-helper) [![Total Downloads](http://poser.pugx.org/nguyenanhung/base64-php-helper/downloads)](https://packagist.org/packages/nguyenanhung/base64-php-helper) [![Latest Unstable Version](http://poser.pugx.org/nguyenanhung/base64-php-helper/v/unstable)](https://packagist.org/packages/nguyenanhung/base64-php-helper) [![License](http://poser.pugx.org/nguyenanhung/base64-php-helper/license)](https://packagist.org/packages/nguyenanhung/base64-php-helper) [![PHP Version Require](http://poser.pugx.org/nguyenanhung/base64-php-helper/require/php)](https://packagist.org/packages/nguyenanhung/base64-php-helper)
+[![Latest Stable Version](https://img.shields.io/packagist/v/nguyenanhung/base64-php-helper.svg?style=flat-square)](https://packagist.org/packages/nguyenanhung/base64-php-helper)
+[![Total Downloads](https://img.shields.io/packagist/dt/nguyenanhung/base64-php-helper.svg?style=flat-square)](https://packagist.org/packages/nguyenanhung/base64-php-helper)
+[![License](https://img.shields.io/packagist/l/nguyenanhung/base64-php-helper.svg?style=flat-square)](https://packagist.org/packages/nguyenanhung/base64-php-helper)
+[![PHP Version Require](https://img.shields.io/packagist/dependency-v/nguyenanhung/base64-php-helper/php)](https://packagist.org/packages/nguyenanhung/base64-php-helper)
 
 # Base64 Helper
 
